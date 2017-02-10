@@ -13,250 +13,235 @@
      </o:OfficeDocumentSettings>
     </xml><![endif]-->
 
-  <style type="text/css">
 
-  /* =======================
-  Reset Styles
-  ======================= */
+<style type="text/css">
+		body{
+			margin:0;
+			padding:0;
+			-webkit-text-size-adjust:100%;
+			-ms-text-size-adjust:100%;
+		}
+		img{
+			border:0 none;
+			display:block;
+			height:auto;
+			line-height:100%;
+			outline:none;
+			text-decoration:none;
+			-ms-interpolation-mode:bicubic;
+		}
+		a img{
+			border:0 none;
+		}
+		.imageFix{
+			display:block;
+		}
+		table,td{
+			border-collapse:collapse;
+		}
+		#bodyTable{
+			margin:0;
+			padding:0;
+		}
+		.ExternalClass{
+			width:100%;
+		}
+		.ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{
+			line-height:100%;
+		}
+		#outlook a{
+			padding:0;
+		}
+		table{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+		}
+		span.MsoHyperlink{
+			mso-style-priority:99;
+			color:inherit;
+		}
+		span.MsoHyperlinkFollowed{
+			mso-style-priority:99;
+			color:inherit;
+		}
+		a{
+			color:#ff5000;
+			font-weight:bold;
+			text-decoration:underline;
+		}
+		ol,ul{
+			font-family:arial, sans-serif;
+			font-size:1em;
+			margin-top:0px;
+			margin-bottom:0px;
+			padding-top:0px;
+			padding-bottom:0px;
+			mso-line-height-rule:exactly;
+		}
+		ol ul,ul ol{
+			margin-top:0px;
+			margin-bottom:0px;
+			padding-top:0px;
+			padding-bottom:0px;
+			mso-line-height-rule:exactly;
+		}
+		#emailContainer td{
+			font-family:arial, helvetica, sans-serif;
+			vertical-align:top;
+		}
+		.text{
+			mso-line-height-rule:exactly;
+			line-height:1.5625;
+			-webkit-text-size-adjust:none;
+		}
+		.padding-top-25{
+			padding-top:25px;
+		}
+		.preheader{
+			padding-top:10px;
+			padding-bottom:15px;
+		}
+		.preheader td{
+			color:#333d47;
+			font-size:10px;
+			line-height:12px;
+			text-align:right;
+		}
+		.preheader td a{
+			color:#333d47;
+			font-weight:normal;
+			text-decoration:underline;
+		}
+		.header img{
+			background-color:#ffffff;
+			color:#ff5000;
+			font-size:32px;
+			font-weight:bold;
+			height:186px;
+			width:640px;
+			line-height:25px;
+			text-align:left;
+		}
+		.body-content{
+			background-color:#ffffff;
+			padding-left:20px;
+			padding-right:20px;
+			padding-bottom:20px;
+		}
+		.header-text,.full-width-text,.divider,.text-image-right__text,.text-image-left__text,.three-photo-description{
+			text-align:left;
+		}
+		.full-width-text,.divider,.text-image-right__text,.text-image-left__text,.three-photo-description{
+			color:#333d47;
+			font-weight:normal;
+			font-size:16px;
+		}
+		.header-text{
+			color:#ff5000;
+			font-weight:bold;
+			font-size:20px;
+			line-height:25px;
+		}
+		.button-container{
+			text-align:center !important;
+		}
+		.button table{
+			background-color:#ff5000;
+		}
+		.button-text{
+			font-size:16px;
+			font-weight:normal;
+			line-height:25px;
+			text-align:center;
+			mso-line-height-rule:exactly;
+			-webkit-text-size-adjust:none;
+			padding-top:5px;
+			padding-right:30px;
+			padding-bottom:5px;
+			padding-left:30px;
+		}
+		.button-text a{
+			color:#ffffff;
+			font-weight:normal;
+			text-decoration:none;
+		}
+		.divider{
+			padding-left:120px;
+			padding-right:120px;
+		}
+		.divider td{
+			border-bottom-color:#d2d4d7;
+			border-bottom-style:solid;
+			border-bottom-width:1px;
+		}
+		.text-image-left__image img,.text-image-right__image img,.three-photos-with-description img{
+			height:200px;
+			width:188px;
+		}
+		.text-image-left__text{
+			padding-left:18px;
+		}
+		.text-image-right__text{
+			padding-right:18px;
+		}
+		.full-width-image img{
+			height:320px;
+			width:600px;
+		}
+		.three-photos-with-description{
+			width:188px;
+		}
+		.three-photos-with-description--padding{
+			padding-right:10px;
+		}
+		.three-photos-with-description td{
+			width:188px;
+		}
+		#footer{
+			padding-top:25px;
+			padding-right:169px;
+			padding-bottom:25px;
+			padding-left:168px;
+		}
+		.social-link{
+			padding-right:10px;
+		}
+		.follow-us+.social-link{
+			padding-left:10px;
+		}
+		.social-link:last-child{
+			padding-right:0;
+		}
+		.follow-us img{
+			background-color:#ff5000;
+			color:#ffffff;
+			height:20px;
+			width:91px;
+		}
+		.social-link,.social-link img{
+			height:20px;
+			width:20px;
+		}
+		.tracking-pixel{
+			color:#abafb3;
+			text-align:center !important;
+		}
+		.tracking-pixel img{
+			display:none;
+			height:0;
+			width:0;
+		}
+	@media screen and (max-width: 660px){
+		body,#bodyTable{
+			background-color:#ffffff !important;
+		}
 
-  body{
-    margin:0;
-    padding:0;
-    -webkit-text-size-adjust:100%;
-    -ms-text-size-adjust:100%;
-  }
-  img{
-    border:0 none;
-    display:block;
-    height:auto;
-    line-height:100%;
-    outline:none;
-    text-decoration:none;
-    -ms-interpolation-mode:bicubic;
-  }
-  a img{
-    border:0 none;
-  }
-  .imageFix{
-    display:block;
-  }
-  table,td{
-    border-collapse:collapse;
-  }
-  #bodyTable{
-    margin:0;
-    padding:0;
-  }
-  .ExternalClass{
-    width:100%;
-  }
-  .ExternalClass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass td,.ExternalClass div{
-    line-height:100%;
-  }
-  #outlook a{
-    padding:0;
-  }
-  table{
-    mso-table-lspace:0pt;
-    mso-table-rspace:0pt;
-  }
+}	@media screen and (max-width: 660px){
+		.preheader{
+			padding-right:20px;
+		}
 
-
-
-  /* =======================
-  User Styles
-  ======================= */
-    a {
-      color: #ff5000;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-    ol,ul{
-      font-family: arial, sans-serif;
-      font-size: 1em;
-      margin-top: 0px;
-      margin-bottom: 0px;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      mso-line-height-rule:exactly;
-    }
-    ol ul,ul ol {
-      margin-top: 0px;
-      margin-bottom: 0px;
-      padding-top: 0px;
-      padding-bottom: 0px;
-      mso-line-height-rule: exactly;
-    }
-    #emailContainer td {
-      font-family: arial, helvetica, sans-serif;
-      vertical-align: top;
-    }
-    .text {
-      mso-line-height-rule: exactly;
-      line-height: 1.5625;
-      -webkit-text-size-adjust: none;
-    }
-    .padding-top-25{
-      padding-top:25px;
-    }
-    .preheader {
-      padding-top: 10px;
-      padding-bottom: 15px;
-    }
-    .preheader td {
-      color: #333d47;
-      font-size: 10px;
-      line-height: 12px;
-      text-align: right;
-    }
-    .preheader td a {
-      color: #333d47;
-      font-weight: normal;
-      text-decoration: underline;
-    }
-    .header img{
-      background-color: #ffffff;
-      color: #ff5000;
-      font-size: 32px;
-      font-weight: bold;
-      height: 186px;
-      width: 640px;
-      line-height: 25px;
-      text-align: left;
-    }
-    .body-content {
-      background-color: #ffffff;
-      padding-left: 20px;
-      padding-right: 20px;
-      padding-bottom: 20px;
-    }
-    .header-text,
-    .full-width-text,
-    .divider,
-    .text-image-right__text,
-    .text-image-left__text,
-    .three-photo-description{
-      text-align:left;
-    }
-    .full-width-text,
-    .divider,
-    .text-image-right__text,
-    .text-image-left__text,
-    .three-photo-description{
-      color: #333d47;
-      font-weight:normal;
-      font-size:16px;
-    }
-    .header-text{
-      color: #ff5000;
-      font-weight: bold;
-      font-size: 20px;
-      line-height: 25px;
-    }
-    .button-container {
-      text-align: center !important;
-    }
-    .button table{
-      background-color:#ff5000;
-    }
-    .button-text{
-      font-size:16px;
-      font-weight:normal;
-      line-height:25px;
-      text-align:center;
-      mso-line-height-rule:exactly;
-      -webkit-text-size-adjust:none;
-      padding-top:5px;
-      padding-right:30px;
-      padding-bottom:5px;
-      padding-left:30px;
-    }
-    .button-text a {
-      color: #ffffff;
-      font-weight:normal;
-      text-decoration:none;
-    }
-    .divider {
-      padding-left: 120px;
-      padding-right: 120px;
-    }
-    .divider td {
-      border-bottom-color:#d2d4d7;
-      border-bottom-style:solid;
-      border-bottom-width:1px;
-    }
-    .text-image-left__image img,
-    .text-image-right__image img,
-    .three-photos-with-description img {
-      height: 200px;
-      width:188px;
-    }
-    .text-image-left__text {
-      padding-left:18px;
-    }
-    .text-image-right__text {
-      padding-right:18px;
-    }
-    .full-width-image img {
-      height: 320px;
-      width: 600px;
-    }
-    .three-photos-with-description {
-      width: 188px;
-    }
-    .three-photos-with-description--padding {
-      padding-right: 10px;
-    }
-    .three-photos-with-description td {
-      width: 188px;
-    }
-    #footer {
-      padding-top: 25px;
-      padding-right: 169px;
-      padding-bottom: 25px;
-      padding-left: 168px;
-    }
-    .social-link {
-      padding-right: 10px;
-    }
-    .follow-us + .social-link {
-      padding-left: 10px;
-    }
-    .social-link:last-child {
-      padding-right: 0;
-    }
-    .follow-us img {
-      background-color: #ff5000;
-      color: #ffffff;
-      height: 20px;
-      width: 91px;
-    }
-    .social-link,
-    .social-link img {
-      height: 20px;
-      width: 20px;
-    }
-    .tracking-pixel {
-      color: #abafb3;
-      text-align: center !important;
-    }
-    .tracking-pixel img {
-      display: none;
-      height: 0;
-      width: 0;
-    }
-
-    @media screen and (max-width: 660px) {
-      body,
-      #bodyTable {
-        background-color: #ffffff !important;
-      }
-      .preheader {
-        padding-right: 20px;
-      }
-    }
-  </style>
-</head>
+}</style></head>
 
 <body bgcolor="#e7e8e9" style="margin: 0;padding: 0;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;">
   <table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable" style="background-color: #e7e8e9;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;margin: 0;padding: 0;">
@@ -294,11 +279,11 @@
               <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
 
 
-                <tr mc:hideable>
+                <tr mc:repeatable="content" mc:variant="header">
                   <td align="center" valign="top" style="border-collapse: collapse;font-family: arial, helvetica, sans-serif;vertical-align: top;">
                     <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;">
                       <tr>
-                        <td align="left" valign="top" class="header-text text padding-top-25" mc:edit="headertext" mc:label="Header text" style="border-collapse: collapse;mso-line-height-rule: exactly;line-height: 25px;-webkit-text-size-adjust: none;padding-top: 25px;text-align: left;color: #ff5000;font-weight: bold;font-size: 20px;font-family: arial, helvetica, sans-serif;vertical-align: top;">
+                        <td align="left" valign="top" class="header-text text padding-top-25" mc:label="Header text" mc:edit="headertext" style="border-collapse: collapse;mso-line-height-rule: exactly;line-height: 25px;-webkit-text-size-adjust: none;padding-top: 25px;text-align: left;color: #ff5000;font-weight: bold;font-size: 20px;font-family: arial, helvetica, sans-serif;vertical-align: top;">
                           Type header here<br>
                           Arial / type 20px / leading 25px
                         </td>
@@ -328,7 +313,7 @@
                         <td align="center" valign="top" class="button" style="border-collapse: collapse;font-family: arial, helvetica, sans-serif;vertical-align: top;">
                           <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;background-color: #ff5000;">
                             <tr>
-                              <td align="center" valign="top" class="button-text" mc:label="Button" mc:edit="button-text" style="border-collapse: collapse;font-size: 16px;font-weight: normal;line-height: 25px;text-align: center;mso-line-height-rule: exactly;-webkit-text-size-adjust: none;padding-top: 5px;padding-right: 30px;padding-bottom: 5px;padding-left: 30px;font-family: arial, helvetica, sans-serif;vertical-align: top;">
+                              <td align="center" valign="top" class="button-text" mc:label="Button" mc:edit="buttontext" style="border-collapse: collapse;font-size: 16px;font-weight: normal;line-height: 25px;text-align: center;mso-line-height-rule: exactly;-webkit-text-size-adjust: none;padding-top: 5px;padding-right: 30px;padding-bottom: 5px;padding-left: 30px;font-family: arial, helvetica, sans-serif;vertical-align: top;">
                                 <a href="#" target="_blank" style="color: #ffffff;font-weight: normal;text-decoration: none;">CTA text</a>
                               </td>
                             </tr>
